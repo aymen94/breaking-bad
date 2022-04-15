@@ -1,0 +1,97 @@
+/*
+#ff9944 skin
+#f99440 skin-light
+#ff9440 skin-med
+#ee8833 skin-dark
+#773300 beard
+#440000 hair dark
+#884400 glasses
+#662200 glasses Dark
+#000000 black
+#222222 grey dark
+#aaaaaa grey light
+
+z-index
+1) Head
+2) Hat
+3) Beard
+4) Nose
+5) Glasses
+6) Eyes
+7) Glasses Shades
+*/
+/*======================================
+General
+======================================*/
+*:before,
+*:after {
+  content: "";
+  position: absolute;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: #000;
+}
+.BreakingBad {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.firstLetter{
+  color: rgb(72, 127, 90);
+  text-shadow: rgb(0 0 0) 1px 1px;
+}
+/*======================================
+Logo
+======================================*/
+.logo {
+  display: inline-block;
+  margin-top: 20px;
+}
+.logo p {
+  text-align: left;
+  font-size: 5em;
+  font-weight: bold;
+  line-height: 1.5em;
+  color: #aaa;
+  margin: 0;
+  padding: 0;
+}
+.logo .element {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  height: 1.5em;
+  width: 1.5em;
+  background: #5cbe73;
+  color: #000;
+  font-family: sans-serif;
+  margin-right: 0.08em;
+  border: 0.1em solid #5cbe73;
+}
+.logo p:last-of-type {
+  margin-left: 1.7em;
+}
+.logo .element .number {
+  font-size: 0.26em;
+  position: absolute;
+  line-height: 1em;
+  top: 0.5em;
+  right: 0.5em;
+}
+
+footer {
+  margin-top: 20px;
+}
+footer p {
+  color: #aaa;
+  font-family: sans-serif;
+  font-size: 0.6em;
+}
