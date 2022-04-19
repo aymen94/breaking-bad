@@ -5,7 +5,7 @@ class Character extends Component {
   render() {
     let user = this.props.user;
     return (
-      <Card border="success" className="m-1" style={{ width: "20rem" }}>
+      <Card bg="dark" border="white" text="white" style={{ width: "20rem" }} className="m-1 roundBorder">
         <Card.Img
           width={500}
           height={500}
@@ -22,10 +22,10 @@ class Character extends Component {
           </Card.Title>
         </Card.Header>
         <ListGroup className="list-group-flush">
-          <ListGroupItem>Nickname: {user.nickname}</ListGroupItem>
-          <ListGroupItem>Birthday: {user.birthday}</ListGroupItem>
-          <ListGroupItem>Actor: {user.portrayed}</ListGroupItem>
-          <ListGroupItem>
+          <ListGroupItem variant="dark">Nickname: {user.nickname}</ListGroupItem>
+          <ListGroupItem variant="dark">Birthday: {user.birthday}</ListGroupItem>
+          <ListGroupItem variant="dark">Actor: {user.portrayed}</ListGroupItem>
+          <ListGroupItem variant="dark"> 
             Occupation:{" "}
             {user.occupation.map((o) => (
               <li key={o}>{o}</li>

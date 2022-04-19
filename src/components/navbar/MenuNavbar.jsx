@@ -23,6 +23,9 @@ class MenuNavbar extends Component {
               <Link className="nav-link" to="/quotes">
                 Quotes
               </Link>
+              <Link className="nav-link" to="/about">
+                About
+              </Link>
             </Nav>
             <Outlet />
           </Navbar.Collapse>
